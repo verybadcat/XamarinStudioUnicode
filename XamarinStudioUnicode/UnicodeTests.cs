@@ -21,8 +21,8 @@ namespace XamarinStudioUnicode
             var chars = stringified.ToCharArray();
             var char0 = chars[0];
             var char1 = chars[1];
-
-            
+            Assert.AreEqual(55349, char0);
+            Assert.AreEqual(56410, char1);
         }
     }
 }
